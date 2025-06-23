@@ -6,12 +6,12 @@ const LeetcodeCom = () => {
   const [profile1, setProfile1] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3001/api/leetcode/anmoldhima")
+    fetch("https://portfolio-uuua.onrender.com/api/leetcode/anmoldhima")
       .then((res) => res.json())
       .then((data) => setProfile(data))
       .catch((err) => console.error("Profile fetch error", err));
 
-    fetch("http://localhost:3001/api/leetcode2/anmoldhima")
+    fetch("https://portfolio-uuua.onrender.com/api/leetcode2/anmoldhima")
       .then((res) => res.json())
       .then((data) => setProfile1(data))
       .catch((err) => console.error("Rating fetch error", err));

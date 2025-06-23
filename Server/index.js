@@ -73,6 +73,8 @@ app.get("/api/leetcode2/:username", async (req, res) => {
 app.listen(3001, () => {
   console.log("Server running at http://localhost:3001");
 });
+
+
 app.use(express.static(path.join(__dirname,"../dist")));
  app.get("/",(req,res)=>{
    res.sendFile(path.join(__dirname,"../","dist","index.html"));
