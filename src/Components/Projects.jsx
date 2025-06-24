@@ -11,36 +11,75 @@ const Projects = () => {
         <ProjectCard
           src="/assests/image.png"
           title="2D Metaverse"
-          link = "https://twod-metaverse-zeo3.onrender.com"
+          link="https://twod-metaverse-zeo3.onrender.com"
           description="A feature-rich 2D multiplayer metaverse built with React, Canvas, Socket.IO, WebRTC, Firebase and LiveKit. Explore, chat, call, and interact in real-time — all from your browser."
+          stack={[
+            "/assests/react.png",
+            "/assests/express.png",
+            "/assests/webhook.svg",
+            "/assests/redux.png",
+            "/assests/mongodb.png",
+            "/assests/Firebase.png",
+            "/assests/tailwind.png"
+          ]}
         />
         <ProjectCard
           src="/assests/realwstate.png"
           title="Real Estate Marketplace"
-          link = "https://real-estate-30cd.onrender.com"
-          description="A full-stack Real Estate Listing Platform where users can create accounts, post properties, upload images, manage listings, and directly contact owners -mern "
+          link="https://real-estate-30cd.onrender.com"
+          description="A full-stack Real Estate Listing Platform where users can create accounts, post properties, upload images, manage listings, and directly contact owners — MERN."
+          stack={[
+            "/assests/react.png",
+            "/assests/express.png",
+            "/assests/redux.png",
+            "/assests/mongodb.png",
+            "/assests/Firebase.png",
+            "/assests/tailwind.png"
+          ]}
         />
         <ProjectCard
           src="/assests/chatapp.png"
           title="Real-Time Chat App"
-          link = "https://pingme-n98t.onrender.com"
+          link="https://pingme-n98t.onrender.com"
           description="A full-stack real-time chat application using React, Node.js, Socket.IO, and MongoDB. Features include private messaging, typing indicators, and live updates."
+          stack={[
+            "/assests/react.png",
+            "/assests/express.png",
+            "/assests/webhook.svg",
+            "/assests/redux.png",
+            "/assests/mongodb.png",
+            "/assests/Firebase.png",
+            "/assests/tailwind.png"
+          ]}
         />
         <ProjectCard
           src="/assests/blog.png"
           title="DevBlog"
           description="DevBlog is a full-stack blogging platform where users can create, manage, and explore blog posts. Built with React, Tailwind CSS, and Appwrite for auth, storage, and database."
+          stack={[
+            "/assests/react.png",
+            "/assests/redux.png",
+            "/assests/tailwind.png"
+          ]}
         />
         <ProjectCard
           src="/assests/brainwware.png"
           title="Brainware Frontend"
-          link = "https://brainwave-ui-1.onrender.com"
+          link="https://brainwave-ui-1.onrender.com"
           description="Brainwave is a visually stunning and futuristic frontend website inspired by cutting-edge AI design trends. Built with React and Tailwind CSS, it showcases smooth animations, glassmorphism effects, and responsive layouts — perfect for AI SaaS landing pages."
+          stack={[
+            "/assests/react.png",
+            "/assests/tailwind.png"
+          ]}
         />
         <ProjectCard
           src="/assests/Neu.png"
           title="American Sign Language Recognizer"
           description="An intelligent real-time system that recognizes American Sign Language (ASL) gestures using Convolutional Neural Networks (CNN) and Computer Vision techniques. This project leverages OpenCV for hand tracking and PyTorch to run a custom-trained deep learning model that classifies signs from A–Z."
+          stack={[
+            "/assests/py.png",
+            "/assests/NN.png"
+          ]}
         />
       </div>
     </div>
